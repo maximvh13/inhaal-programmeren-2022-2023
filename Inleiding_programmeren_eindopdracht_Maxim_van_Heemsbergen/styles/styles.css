@@ -1,0 +1,108 @@
+html, * {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:100%;
+}
+
+body {
+    background-color: #0CA789;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body_wrapper {
+    background-image: url("../images/goal_en_keeper.png");
+    width: 100vw;
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#gescoord {
+    z-index: 1001;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+#helaas {
+    z-index: 1001;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+
+.bal_op_goal_links {
+    position: absolute;
+    left: 29%;
+    top: 7%;
+    width: 66px;
+    height: 66px;
+    visibility: hidden;
+}
+.bal_op_goal_midden {
+    position: absolute;
+    left: 47.6%;
+    top: 18.8%;
+    width: 63px;
+    height: 63px;
+    visibility: hidden;
+}
+.bal_op_goal_rechts {
+    position: absolute;
+    left: 66%;
+    top: 7%;
+    width: 66px;
+    height: 66px;
+    visibility: hidden;
+}
+
+.speler {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    height: 300px;
+    width: 200px;
+}
+
+.bal_op_stip {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 85px;
+    height: 85px;
+}
+
+.button {
+    z-index: 1002;
+    position: absolute;
+    top: 75%;
+    right: 5%;
+    height: 150px;
+    width: 280px;
+}
+
+.visibility {
+    visibility: visible;
+}
+
+.verstoppen {
+    visibility: hidden;
+}
+
+
+
+
+/* .none {
+    display:none;
+} */
